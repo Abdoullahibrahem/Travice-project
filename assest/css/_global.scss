@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "Oswald";
+  src: url(../fonts/Oswald-Bold.woff2);
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Oswald";
+  src: url(../fonts/Oswald-Medium.woff2);
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Oswald";
+  src: url(../fonts/Oswald-Regular.woff2);
+  font-weight: 500;
+}
+* {
+  font-family: "Oswald", "sans-serif";
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --primary-color: #febd19;
+  --secondary-color: #23283b;
+  --dark-color: #000;
+  --semiDark-color: #181a27;
+  --light-color: white;
+  --gray-color: #808080;
+}
+
+@mixin headings {
+  .p-title {
+    font-size: 20px;
+    color: var(--primary-color);
+  }
+  h1 {
+    font-size: 60px;
+    color: var(--light-color);
+    span {
+      color: var(--primary-color);
+    }
+  }
+  p {
+    color: rgba(255, 255, 255, 0.468);
+  }
+}
+@mixin mainBtn {
+  .main-btn {
+    color: var(--dark-color);
+    text-decoration: none;
+    background-color: var(--primary-color);
+    padding: 10px 25px;
+    transition: 0.3s;
+    border: none;
+    &:hover {
+      background-color: var(--light-color);
+      border: #febd19;
+      color: #febd19;
+    }
+  }
+}
+@mixin mediaList {
+  .media-list {
+    background-color: var(--semiDark-color-color);
+    display: flex;
+    gap: 10px;
+    padding-left: 0;
+    .media-item {
+      list-style: none;
+      a {
+        i {
+          color: var(--secondary-color);
+          background-color: var(--primary-color);
+          padding: 6px;
+        }
+      }
+    }
+  }
+}
+//End of Global Style//

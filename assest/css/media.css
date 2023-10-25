@@ -1,0 +1,218 @@
+/* who are we media */
+@media (max-width: 769px) {
+  .who-are-we {
+    padding-top: 100px;
+  }
+}
+@media (max-width: 1025px) {
+  .who-are-we {
+    .contain {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      .content {
+        text-align: center;
+        padding-bottom: 20px;
+        .content-icons {
+          display: flex;
+          justify-content: center;
+        }
+        .who-are-we-btns {
+          display: flex;
+          justify-content: center;
+        }
+      }
+      .form-div {
+        form {
+          margin: 320px 0 0 0;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1025px) {
+  .who-are-we {
+    .contain {
+      .content {
+        max-width: 45%;
+      }
+    }
+  }
+}
+/*  */
+/* our services media */
+@media (max-width: 1025px) {
+  .our-services {
+    .container {
+      .contain {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      }
+      .services {
+        .services-flex {
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          align-items: center;
+          align-content: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 376px) {
+  .our-services {
+    .container {
+      .services {
+        .services-flex {
+          .service {
+            width: 300px;
+          }
+        }
+      }
+    }
+  }
+}
+/*  */
+/* choose-us media */
+@media (max-width: 1025px) {
+  .choose-us {
+    .container {
+      width: 100%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      gap: 30px;
+      .choose-content {
+        .choose-list {
+          .choose-list-content {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 769px) {
+  .choose-us {
+    .container {
+      .choose-images {
+        img {
+          max-width: 300px;
+        }
+      }
+    }
+  }
+}
+/*  */
+
+/* testimonials media */
+@media (max-width: 1025px) {
+  .testimonials {
+    .container {
+      .testimonial-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        .content {
+          width: 100%;
+          .profile {
+            display: flex;
+            flex-direction: column;
+          }
+        }
+        .image {
+          background-color: var(--semiDark-rcolor);
+          img {
+            max-width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+/*  */
+
+/* FAQ media */
+@media (max-width: 1025px) {
+  .FAQ {
+    .container {
+      .contain {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        gap: 20px;
+        .FAQ-accordion {
+          .accordion {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+/*  */
+/* contact us media */
+@media (max-width: 992px) {
+  .contact-us {
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      gap: 20px;
+      form {
+        width: 100%;
+      }
+      .contact-info {
+        text-align: center;
+        .contact-data {
+          justify-content: center;
+        }
+        .map {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+/*  */
+
+@media (max-width: 2560px) and (min-width: 1441px) {
+}
+
+@media (max-width: 1440px) and (min-width: 1201px) {
+}
+
+@media (max-width: 1200px) and (min-width: 993px) {
+}
+
+@media (max-width: 992px) and (min-width: 769px) {
+}
+
+@media (max-width: 768px) and (min-width: 577px) {
+}
+
+@media (max-width: 576px) and (min-width: 426px) {
+}
+
+@media (max-width: 425px) and (min-width: 376px) {
+}
+
+@media (max-width: 375px) and (min-width: 321px) {
+}
+
+@media (max-width: 320px) {
+}
