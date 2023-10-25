@@ -76,7 +76,7 @@ header {
       rgba(35, 40, 59, 0.8),
       rgba(35, 40, 59, 0.8)
     ),
-    url(assest/images/header/intro_2.webp);
+    url(../images/header/intro_2.webp);
   .container {
     width: 100%;
     .contain {
@@ -135,7 +135,7 @@ header {
 }
 
 .who-are-we {
-  background-image: url(assest/images/pattern.webp);
+  background-image: url(../images/pattern.webp);
   background-repeat: no-repeat;
   background-color: var(--semiDark-color);
 
@@ -179,7 +179,7 @@ header {
       }
     }
     .form-div {
-      background-image: url(/assest/images/Who-are-we/man.webp);
+      background-image: url(../images/Who-are-we/man.webp);
       background-size: contain;
       display: flex;
       form {
@@ -278,7 +278,7 @@ header {
       rgba(35, 40, 59, 0.6),
       rgba(35, 40, 59, 0.6)
     ),
-    url(/assest/images/call_us.webp);
+    url(../images/call_us.webp);
   .container {
     justify-content: center;
     gap: 40px;
@@ -323,7 +323,7 @@ header {
 .choose-us {
   padding: 150px 0;
   background-color: var(--semiDark-color);
-  background-image: url(/assest/images/Choose-us/Cartrack2.webp);
+  background-image: url(../images/Choose-us/Cartrack2.webp);
   background-repeat: no-repeat;
   background-size: cover;
   .container {
@@ -431,7 +431,7 @@ header {
 }
 
 .FAQ {
-  background-image: url(/assest/images/pattern.webp);
+  background-image: url(../images/pattern.webp);
   background-color: var(--semiDark-color);
   background-repeat: no-repeat;
   padding: 100px 0;
@@ -474,7 +474,7 @@ header {
       rgba(35, 40, 59, 0.8),
       rgba(35, 40, 59, 0.8)
     ),
-    url(/assest/images/call_us.webp);
+    url(../images/call_us.webp);
   padding: 30px 0;
   .container {
     .contain {
@@ -497,7 +497,7 @@ header {
 
 .contact-us {
   padding: 90px 0;
-  background-image: url(/assest/images/Choose-us/Cartrack2.webp);
+  background-image: url(../images/Choose-us/Cartrack2.webp);
   background-color: var(--semiDark-color);
   background-repeat: no-repeat;
   background-size: cover;

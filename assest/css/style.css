@@ -114,7 +114,7 @@ nav .container .media-list .media-item a i {
 header {
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: linear-gradient(rgba(35, 40, 59, 0.8), rgba(35, 40, 59, 0.8)), url(/assest/images/header/intro_2.webp);
+  background-image: linear-gradient(rgba(35, 40, 59, 0.8), rgba(35, 40, 59, 0.8)), url(../images/header/intro_2.webp);
 }
 header .container {
   width: 100%;
@@ -200,7 +200,7 @@ header .container .header-cards .secondary-card p {
 }
 
 .who-are-we {
-  background-image: url(assest/images/pattern.webp);
+  background-image: url(../images/pattern.webp);
   background-repeat: no-repeat;
   background-color: var(--semiDark-color);
 }
@@ -268,7 +268,7 @@ header .container .header-cards .secondary-card p {
   color: #febd19;
 }
 .who-are-we .contain .form-div {
-  background-image: url(/assest/images/Who-are-we/man.webp);
+  background-image: url(../images/Who-are-we/man.webp);
   background-size: contain;
   display: flex;
 }
@@ -378,7 +378,7 @@ header .container .header-cards .secondary-card p {
   padding: 20px 0;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: linear-gradient(rgba(35, 40, 59, 0.6), rgba(35, 40, 59, 0.6)), url(/assest/images/call_us.webp);
+  background-image: linear-gradient(rgba(35, 40, 59, 0.6), rgba(35, 40, 59, 0.6)), url(../images/call_us.webp);
 }
 .emergency .container {
   justify-content: center;
@@ -423,7 +423,7 @@ header .container .header-cards .secondary-card p {
 .choose-us {
   padding: 150px 0;
   background-color: var(--semiDark-color);
-  background-image: url(/assest/images/Choose-us/Cartrack2.webp);
+  background-image: url(../images/Choose-us/Cartrack2.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -547,7 +547,7 @@ header .container .header-cards .secondary-card p {
 }
 
 .FAQ {
-  background-image: url(/assest/images/pattern.webp);
+  background-image: url(../images/pattern.webp);
   background-color: var(--semiDark-color);
   background-repeat: no-repeat;
   padding: 100px 0;
@@ -605,7 +605,7 @@ header .container .header-cards .secondary-card p {
 .offer {
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: linear-gradient(rgba(35, 40, 59, 0.8), rgba(35, 40, 59, 0.8)), url(/assest/images/call_us.webp);
+  background-image: linear-gradient(rgba(35, 40, 59, 0.8), rgba(35, 40, 59, 0.8)), url(../images/call_us.webp);
   padding: 30px 0;
 }
 .offer .container .contain {
@@ -653,7 +653,7 @@ header .container .header-cards .secondary-card p {
 
 .contact-us {
   padding: 90px 0;
-  background-image: url(/assest/images/Choose-us/Cartrack2.webp);
+  background-image: url(../images/Choose-us/Cartrack2.webp);
   background-color: var(--semiDark-color);
   background-repeat: no-repeat;
   background-size: cover;
